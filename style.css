@@ -5,7 +5,9 @@ body {
   padding: 0 60px;
   color: white;
 }
-
+canvas {
+  max-width: 100%;
+}
 .profileSection {
   display: flex;
   justify-content: space-between;
@@ -20,7 +22,7 @@ body {
 }
 .description {
   color: white;
-  margin: 0%;
+  margin: 10 0 0 0;
 }
 .profilePhoto {
   box-shadow: inset 0px 1px 20px black;
@@ -35,6 +37,23 @@ body {
 .stack {
   display: flex;
   margin-top: 100px;
-  align-items: center;
   flex-direction: column;
+}
+.stackSection {
+  display: flex;
+}
+.subtitle {
+  text-align: center;
+}
+.header {
+  text-align: start;
+  margin-top: 60px;
+}
+.op {
+  margin-top: 60px;
+}
+.contacts {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
 }
