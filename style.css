@@ -1,0 +1,40 @@
+body {
+  background-color: #000;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  padding: 0 60px;
+  color: white;
+}
+
+.profileSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.name {
+  text-align: center;
+  justify-content: center;
+  margin: 0%;
+}
+.description {
+  color: white;
+  margin: 0%;
+}
+.profilePhoto {
+  box-shadow: inset 0px 1px 20px black;
+  filter: grayscale();
+  display: block;
+  background-image: url("julian.jpeg");
+  background-size: cover;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.stack {
+  display: flex;
+  margin-top: 100px;
+  align-items: center;
+  flex-direction: column;
+}
