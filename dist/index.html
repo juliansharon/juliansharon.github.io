@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-    <link rel="stylesheet" href="/style.css" />
+    
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,6 +12,9 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Julian Sharon</title>
+    <script type="module" crossorigin src="/assets/index.270392f5.js"></script>
+    <link rel="modulepreload" href="/assets/vendor.7f9ea767.js">
+    <link rel="stylesheet" href="/assets/index.01adec03.css">
   </head>
   <body>
     <div class="profileSection">
@@ -47,29 +50,27 @@
           An enterprise level application that enables the turkey people to pay
           bills,chat and use istanbul apps
         </p>
-        <a
-          href="https://play.google.com/store/apps/details?id=com.tr.gov.ibb.istanbulsenin&referrer=adjust_reftag%3DcmNqLLBqnESdS%26utm_source%3Dweb%2Bpage%26utm_campaign%3Dandroid"
-          target="_blank"
+
+        <button
+          onclick="window.location.href='https://play.google.com/store/apps/details?id=com.tr.gov.ibb.istanbulsenin&referrer=adjust_reftag%3DcmNqLLBqnESdS%26utm_source%3Dweb%2Bpage%26utm_campaign%3Dandroid'"
         >
-          <img
+          <object
+            onclick="window.location.href='https://play.google.com/store/apps/details?id=com.tr.gov.ibb.istanbulsenin&referrer=adjust_reftag%3DcmNqLLBqnESdS%26utm_source%3Dweb%2Bpage%26utm_campaign%3Dandroid'"
             id="#playstore"
-            src="playstore.svg"
+            data="playstore.svg"
             height="40"
             width="40"
             class="svg"
-          />
-        </a>
-        <a
-          href="https://apps.apple.com/ca/app/i-stanbul-senin/id1534342254"
-          target="_blank"
-        >
-          <img
-            id="appstore"
-            src="appstore.svg"
-            height="40"
-            width="40"
-            class="svg"
-        /></a>
+          ></object>
+        </button>
+
+        <object
+          id="appstore"
+          data="appstore.svg"
+          height="40"
+          width="40"
+          class="svg"
+        ></object>
       </div>
       <h2 class="header">G-defender</h2>
       <p class="description">
@@ -81,18 +82,15 @@
         An flutter package that will modify the write key for segment based on
         the environment
       </p>
-      <a
-        href="https://github.com/juliansharon/segment_key_modifer"
-        target="_blank"
-      >
-        <img
-          id="#githubSeg"
-          src="gitHub.svg"
-          height="40"
-          width="40"
-          class="svg"
-        />
-      </a>
+      <!-- <a href="https://github.com/juliansharon/segment_key_modifer"  -->
+      <object
+        id="#githubSeg"
+        data="gitHub.svg"
+        height="40"
+        width="40"
+        class="svg"
+      ></object>
+      <!-- ></a> -->
     </div>
     <div class="subSection op">
       <h1 class="subtitle pro">Open Source Contribution</h1>
@@ -101,16 +99,15 @@
         Contributed to this Flutter plugin by adding opening device settings
         functionality in Android
       </p>
-      <a
-        href="https://github.com/spencerccf/app_settings/pull/98"
-        target="_blank"
-        ><img
+      <a href="https://github.com/spencerccf/app_settings/pull/98"
+        ><object
           id="#githubPr"
-          src="gitHub.svg"
+          data="gitHub.svg"
           height="40"
           width="40"
           class="svg"
-      /></a>
+        ></object
+      ></a>
       <h2 class="header">Local auth</h2>
       <p class="description">
         Contributed to this Flutter plugin by adding event that helps us to find
@@ -118,43 +115,40 @@
       </p>
       <a
         href="https://github.com/juliansharon/plugins/tree/fix/devices-supported-biometrics"
-        target="_blank"
-        ><img src="gitHub.svg" height="40" width="40" class="svg"
-      /></a>
+        ><object data="gitHub.svg" height="40" width="40" class="svg"></object
+      ></a>
     </div>
     <h1 class="subtitle op">Contact</h1>
     <div class="contacts">
       <div class="con">
-        <a href="mailto:julianshrn@gmail.com" target="_top"
-          ><img
+        <a href="mailto:julianshrn@gmail.com"
+          ><object
             id="#mailLink"
-            src="mail.svg"
+            data="mail.svg"
             height="40"
             width="40"
             class="svg"
-          />
-        </a>
+          ></object
+        ></a>
+      </div>
+      <div
+        class="con"
+        onclick="location.href=`https://www.linkedin.com/in/julian-sharon-729a901a5/`"
+      >
+        <object data="linkedIn.svg" height="40" width="40" class="svg"></object>
       </div>
       <div class="con">
-        <a
-          href="https://www.linkedin.com/in/julian-sharon-729a901a5/"
-          target="_blank"
-        >
-          <img src="linkedIn.svg" height="40" width="40" class="svg" />
-        </a>
-      </div>
-      <div class="con git">
-        <a href="https://github.com/juliansharon" target="_blank">
-          <img
+        <a href="https://github.com/juliansharon"
+          ><object
             id="#githubLink"
-            src="gitHub.svg"
+            data="gitHub.svg"
             height="40"
             width="40"
             class="svg"
-          />
-        </a>
+          ></object
+        ></a>
       </div>
     </div>
-    <script type="module" src="/main.js"></script>
   </body>
+  
 </html>

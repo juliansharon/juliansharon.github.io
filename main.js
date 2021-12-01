@@ -115,7 +115,4 @@ function animate() {
 //   window.open(`https://apps.apple.com/tr/app/lstanbul-senin/id1534342254?l=tr`);
 window.onload = function () {
   console.log("loaded");
-  var a = document.getElementById("appstore");
-  console.log(a);
-  a.addEventListener("click", () => console.log(a));
 };
