@@ -54,6 +54,51 @@ canvas {
 }
 .contacts {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   text-align: center;
+}
+.svg {
+  filter: invert();
+  margin: 0 10px 0 0px;
+}
+.con {
+  margin: 20px 20px;
+}
+button {
+  background: none;
+  border: none;
+  z-index: 2;
+}
+@media (max-width: 500px) {
+  .profileSection {
+    flex-direction: column-reverse;
+  }
+  .profilePhoto {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .stackSection {
+    flex-direction: column;
+  }
+  .stack {
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+  }
+  canvas {
+    height: 100px;
+  }
+  .name {
+    text-align: center;
+    align-items: center;
+    margin: 0%;
+  }
+  .about {
+    align-items: center;
+    text-align: center;
+  }
+  .description {
+    align-items: center;
+    text-align: center;
+  }
 }

@@ -19,7 +19,7 @@
         <h1 class="name header">Julian Sharon</h1>
         <h3 class="description">Developer</h3>
         <p class="about">
-          An enthusiastic person who wants to explore all technologies
+          An enthusiastic person who loves to explore all technologies
         </p>
       </div>
       <div class="profilePhoto"></div>
@@ -47,13 +47,27 @@
           An enterprise level application that enables the turkey people to pay
           bills,chat and use istanbul apps
         </p>
-        <a
-          href="https://play.google.com/store/apps/details?id=com.tr.gov.ibb.istanbulsenin&referrer=adjust_reftag%3DcmNqLLBqnESdS%26utm_source%3Dweb%2Bpage%26utm_campaign%3Dandroid"
-          >Play Store</a
+
+        <button
+          onclick="window.location.href='https://play.google.com/store/apps/details?id=com.tr.gov.ibb.istanbulsenin&referrer=adjust_reftag%3DcmNqLLBqnESdS%26utm_source%3Dweb%2Bpage%26utm_campaign%3Dandroid'"
         >
-        <a href="https://apps.apple.com/tr/app/lstanbul-senin/id1534342254?l=tr"
-          >App store</a
-        >
+          <object
+            onclick="window.location.href='https://play.google.com/store/apps/details?id=com.tr.gov.ibb.istanbulsenin&referrer=adjust_reftag%3DcmNqLLBqnESdS%26utm_source%3Dweb%2Bpage%26utm_campaign%3Dandroid'"
+            id="#playstore"
+            data="playstore.svg"
+            height="40"
+            width="40"
+            class="svg"
+          ></object>
+        </button>
+
+        <object
+          id="appstore"
+          data="appstore.svg"
+          height="40"
+          width="40"
+          class="svg"
+        ></object>
       </div>
       <h2 class="header">G-defender</h2>
       <p class="description">
@@ -65,7 +79,15 @@
         An flutter package that will modify the write key for segment based on
         the environment
       </p>
-      <a href="https://github.com/juliansharon/segment_key_modifer">Github</a>
+      <!-- <a href="https://github.com/juliansharon/segment_key_modifer"  -->
+      <object
+        id="#githubSeg"
+        data="gitHub.svg"
+        height="40"
+        width="40"
+        class="svg"
+      ></object>
+      <!-- ></a> -->
     </div>
     <div class="subSection op">
       <h1 class="subtitle pro">Open Source Contribution</h1>
@@ -74,7 +96,15 @@
         Contributed to this Flutter plugin by adding opening device settings
         functionality in Android
       </p>
-      <a href="https://github.com/spencerccf/app_settings/pull/98">Github</a>
+      <a href="https://github.com/spencerccf/app_settings/pull/98"
+        ><object
+          id="#githubPr"
+          data="gitHub.svg"
+          height="40"
+          width="40"
+          class="svg"
+        ></object
+      ></a>
       <h2 class="header">Local auth</h2>
       <p class="description">
         Contributed to this Flutter plugin by adding event that helps us to find
@@ -82,27 +112,40 @@
       </p>
       <a
         href="https://github.com/juliansharon/plugins/tree/fix/devices-supported-biometrics"
-        >Repo</a
-      >
+        ><object data="gitHub.svg" height="40" width="40" class="svg"></object
+      ></a>
     </div>
-    <h1 class="subtitle pro">Contact</h1>
+    <h1 class="subtitle op">Contact</h1>
     <div class="contacts">
-      <div>
-        <h2 class="header">Mail</h2>
-        <a href="mailto:julianshrn@gmail.com">juliansharon@gmail.com</a>
+      <div class="con">
+        <a href="mailto:julianshrn@gmail.com"
+          ><object
+            id="#mailLink"
+            data="mail.svg"
+            height="40"
+            width="40"
+            class="svg"
+          ></object
+        ></a>
       </div>
-      <div>
-        <h2 class="header">LinkedIn</h2>
-        <a href="https://www.linkedin.com/in/julian-sharon-729a901a5/"
-          >Profile</a
-        >
+      <div
+        class="con"
+        onclick="location.href=`https://www.linkedin.com/in/julian-sharon-729a901a5/`"
+      >
+        <object data="linkedIn.svg" height="40" width="40" class="svg"></object>
       </div>
-      <div>
-        <h2 class="header">Github</h2>
-        <a href="https://github.com/juliansharon">Github</a>
+      <div class="con">
+        <a href="https://github.com/juliansharon"
+          ><object
+            id="#githubLink"
+            data="gitHub.svg"
+            height="40"
+            width="40"
+            class="svg"
+          ></object
+        ></a>
       </div>
     </div>
-
-    <script type="module" src="/main.js"></script>
   </body>
+  <script type="module" src="/main.js"></script>
 </html>
