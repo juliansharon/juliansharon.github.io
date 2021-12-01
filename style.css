@@ -101,15 +101,13 @@ button {
     align-items: center;
     text-align: center;
   }
-  .con.git {
-    position: relative;
-    z-index: 2;
-    background-color: blue;
-    fill: blue;
-    height: 100;
-    width: 100;
+  .header {
+    text-align: center;
+    align-items: center;
+    margin-top: 60px;
   }
-  #githubLink {
-    position: relative;
+  .subSection {
+    text-align: center;
+    align-items: center;
   }
 }
